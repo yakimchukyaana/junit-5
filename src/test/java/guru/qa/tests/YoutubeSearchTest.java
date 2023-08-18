@@ -11,7 +11,6 @@ public class YoutubeSearchTest {
 
     YoutubePage youtubePage = new YoutubePage();
 
-
     @ValueSource(
             strings = {"cats", "dogs", "capybaras"}
     )

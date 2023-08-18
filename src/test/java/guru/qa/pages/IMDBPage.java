@@ -7,6 +7,7 @@ import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 
 public class IMDBPage {
+
     private final SelenideElement
     searchField = $(".imdb-header-search__input"),
     searchResult = $("[data-testid=find-results-section-title]");

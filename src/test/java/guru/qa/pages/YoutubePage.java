@@ -7,6 +7,7 @@ import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 
 public class YoutubePage {
+
     private final SelenideElement
         searchField = $("[name=search_query]"),
         searchResult = $("#contents");
