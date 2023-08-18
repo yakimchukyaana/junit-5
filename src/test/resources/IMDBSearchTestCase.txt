@@ -1,0 +1,24 @@
+0) TEST_DATA:
+[
+Se7en                               | Morgan Freeman
+The Game                            | Michael Douglas
+Fight Club                          | Brad Pitt
+Panic Room                          | Jodie Foster
+Zodiac                              | Jake Gyllenhaal
+The Curious Case of Benjamin Button | Brad Pitt
+The Social Network                  | Jesse Eisenberg
+The Girl with the Dragon Tattoo     | Daniel Craig
+Gone Girl                           | Ben Affleck
+Mank                                | Gary Oldman
+]
+
+1) ЗАГОЛОВОК: "При поиске фильма на IMDB отображается главный актер"
+2) ПРИОРОИТЕТ: HIGH
+3) ПРЕДУСЛОВИЯ: - Открыт браузер chrome, location: https://www.imdb.com/
+
+4) ШАГИ
+- Ввести в поле поиска наименование фильма
+- Нажать Enter
+
+5) ОЖИДАЕМЫЙ РЕЗУЛЬТАТ:
+- В поисковой выдаче есть фильм с его главным актером

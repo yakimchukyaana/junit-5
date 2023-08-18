@@ -1,0 +1,19 @@
+0) TEST_DATA:
+[
+    "Mary Watson     | marywatson@gmail.com     | 40 Lipton Court   | 43 Mill Lane",
+    "Sherlock Holmes | sherlockholmes@gmail.com | 221B Baker Street | 9723 Manchester Road",
+    "John Watson     | johnwatson@gmail.com     | 31 Stanley Road   | 76 Church Road"
+]
+
+1) ЗАГОЛОВОК: "В блоке output отображаются корректные данные пользователя"
+2) ПРИОРОИТЕТ: BLOCKER
+3) ПРЕДУСЛОВИЯ: - Открыт браузер chrome, location: https://demoqa.com/
+4) ШАГИ
+    - открыть страницу text box
+    - ввести Full Name
+    - ввести Email
+    - ввести Current Address
+    - ввести Permanent Address
+
+5) ОЖИДАЕМЫЙ РЕЗУЛЬТАТ:
+- В блоке output отображаются корректные данные пользователя
